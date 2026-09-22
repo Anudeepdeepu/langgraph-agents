@@ -3,7 +3,8 @@
     "graphs": {
         "hello": "./hello.py:compiled_graph",
         "partial": "./partial.py:compiled_graph",
-        "partial1": "./partial1.py:compiled_graph"
+        "partial1": "./partial1.py:compiled_graph",
+        "partial_par": "./partial_parallel.py:compiled_graph"
     },
     "env": ".env"
 }
