@@ -7,7 +7,8 @@
         "partial_par": "./partial_parallel.py:compiled_graph",
         "parallel1" : "./parallel1.py:compiled_graph",
         "conditional" : "./conditional.py:compiled_graph",
-        "looping":  "./loops.py:compiled_graph"
+        "looping":  "./loops.py:compiled_graph",
+        "looping1": "./loops1.py:compiled_graph"
     },
     "env": ".env"
 }
