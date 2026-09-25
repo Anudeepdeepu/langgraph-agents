@@ -37,4 +37,18 @@ if __name__ == "__main__":
     result = compiled_graph.invoke(State(student="anupam"))
     print(result)
 
+"""
+
+fan-out means one point in the graph branches out to multiple nodes,
+ allowing those nodes to execute in parallel when the framework/runtime supports parallel execution.
+                 ┌──→ Finance ──┐
+                 │              │
+START ── FAN OUT ┼──→ Library ──┼──→ ...
+                 │              │
+                 └──→ Sports ───┘
+
+                 
+ 
+
+"""
 
